@@ -42,11 +42,13 @@ cd TablePluse
 
 ```
 TablePluse/
-├── docs/               # Documentation (in-progress)
-├── src/                # Source code
-│   ├── backend/        # Backend services
-│   └── frontend/       # UI components
-├── tests/              # Unit and integration tests
+├── csp/                # CSP web pages (.csp)
+│   └── TablePluse/     # Main CSP application folder
+├── src/                # ObjectScript source (.cls, .int, .mac), optional if needed
+│   └── TablePluse/     # Package namespace (e.g., TablePluse.Data, TablePluse.Utils)
+├── resources/          # Static assets (JS, CSS, images)
+├── tests/              # Unit or UI test code (can include TestProduction classes)
+├── docs/               # Documentation (markdown, diagrams, etc.)
 ├── README.md
 └── LICENSE
 ```
