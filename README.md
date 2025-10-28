@@ -25,18 +25,35 @@ While TablePluse currently focuses on schema exploration, future updates will in
 - ✅ Supports common relational databases (e.g., MySQL, PostgreSQL, SQL Server) 
 
 ---
+## ⚙️ Installation
 
-## 📦 Installation
-
-> Coming soon — installation instructions will be added once the application is ready for release.
-
-For now, clone the repository to get started with development:
+Clone or download the repository:
 
 ```bash
-git clone https://github.com/your-username/TablePluse.git
-cd TablePluse
+git clone https://github.com/AshokThangavel/Interop-LookupTable.git
 ````
----
+
+Build the Docker container:
+
+```bash
+docker compose --progress plain build
+```
+
+Start the container:
+
+```bash
+docker compose up -d && docker compose logs -f
+```
+
+Access the InterSystems IRIS **System Management Portal** at:
+
+👉 [http://localhost:52773/csp/sys/UtilHome.csp](http://localhost:52773/csp/sys/UtilHome.csp)
+
+**Access the TablePluse**:
+
+👉 http://localhost:52773/csp/user/TablePluse.Home.cls
+
+
 
 ## 📁 Project Structure (Early Phase)
 
